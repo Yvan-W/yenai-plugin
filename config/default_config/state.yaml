@@ -7,13 +7,14 @@
 psTestSites:
     show: pro
     list:
-        - name: Baidu
-          url: https://baidu.com
         - name: Google
           url: https://google.com
-        - name: Google(proxy)
-          url: https://google.com
-          useProxy: true
+        - name: Yvanの数据库
+          url: https://m.yvan.us.kg
+        - name: Yvanの小破站
+          url: https://www.yvan.us.kg
+        - name: GT-Yvan
+          url: https://yvan-w-gt.hf.space
     timeout: 5000
 
 # 监控任务
@@ -35,7 +36,7 @@ backdrop: "http://dir.dengfenglai.icu"
 backdropDefault: "random"
 
 # 关闭node的那个圈圈
-closedNodeInfo: true
+closedNodeInfo: false
 
 # 关闭图表
 closedChart: false
