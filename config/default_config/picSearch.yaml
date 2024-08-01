@@ -5,7 +5,7 @@ allowPM: true
 #每名用户每日搜索次数限制
 limit: 30
 #SauceNAO搜图apikey 请在 https://saucenao.com/user.php?page=search-api 进行获取
-SauceNAOApiKey: 9f82022fb7b54e2b11262a2e6a7a0a2977b3ec09
+SauceNAOApiKey:
 #SauceNAO搜图相似度低于这个百分比将被认定为相似度过低
 SauceNAOMinSim: 60
 #saucanao 得到 NSFW 结果时隐藏缩略图，可选 0~3，严格程度依次增加
