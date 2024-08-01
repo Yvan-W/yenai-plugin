@@ -12,15 +12,15 @@ export class NewState extends plugin {
       priority: -1000,
       rule: [
         {
-          reg: "^#?(椰奶)?状态(pro)?(debug)?$",
+          reg: "^(椰奶)?状态(pro)?(debug)?$",
           fnc: "state"
         },
         {
-          reg: "^#椰奶监控$",
+          reg: "^椰奶监控$",
           fnc: "monitor"
         },
         {
-          reg: "^#?原图$",
+          reg: "^原图$",
           fnc: "origImg"
         }
       ]
