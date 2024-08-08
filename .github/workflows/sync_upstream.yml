@@ -19,7 +19,7 @@ jobs:
 
     - name: Add upstream
       run: |
-        git remote add upstream https://github.com/coolsnowwolf/lede.git
+        git remote add upstream https://github.com/yeyang52/yenai-plugin.git
         git fetch upstream
 
     - name: Merge upstream changes
