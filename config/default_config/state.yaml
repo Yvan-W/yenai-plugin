@@ -12,7 +12,7 @@ psTestSites:
         - name: Yvanの数据库
           url: https://m.yvan.us.kg
         - name: Yvanの小破站
-          url: https://www.yvan.us.kg
+          url: https://blog.yvan.eu.org
         - name: GT-Yvan
           url: https://yvan-w-gt.hf.space
     timeout: 5000
