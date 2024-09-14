@@ -1,7 +1,7 @@
 name: Sync Upstream
 on:
-  schedule:
-    - cron: '0 0/8 * * *'  # 每周运行一次
+#  schedule:
+#    - cron: '0 0/8 * * *'  # 每周运行一次
   workflow_dispatch:
 jobs:
   sync:
